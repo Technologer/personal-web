@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes helmet-in {
+  0%   { opacity: 0; transform: scale(0.75) translateY(24px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes visor-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+
+.helmet-enter {
+  animation: helmet-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.visor-glow {
+  animation: visor-pulse 2.4s ease-in-out infinite;
+}
