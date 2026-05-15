@@ -22,12 +22,12 @@ export default function Hero() {
         <h1
           className={`text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-tight tracking-tight mb-6 ${base} ${show}`}
         >
-          Hi. My name is Jan Vnencak,
+          Hello, my name is Jan Vnencak,
           <br />
           <span className="text-zinc-500">but everybody calls me Vnenco.</span>
         </h1>
         <span
-          className={`inline-block text-xs font-medium text-zinc-400 tracking-widest uppercase mt-5 mb-3 border border-white/10 rounded-full px-3 py-1 ${base} ${show}`}
+          className={`inline-block text-xs font-medium text-zinc-400 tracking-widest uppercase mt-12 mb-4 border border-white/10 rounded-full px-3 py-1 ${base} ${show}`}
           style={{ transitionDelay: `${ENTRY_STEP_MS * 1}ms` }}
         >
           Frontend Engineer
