@@ -8,6 +8,7 @@ import {
   EasterEgg,
 } from "./components";
 import { useKonami } from "./hooks/useKonami";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   const [easterEggVisible, closeEasterEgg] = useKonami();
@@ -21,6 +22,7 @@ export default function App() {
       <Contact />
       <Footer />
       {easterEggVisible && <EasterEgg onClose={closeEasterEgg} />}
+      <ScrollToTop />
     </div>
   );
 }
