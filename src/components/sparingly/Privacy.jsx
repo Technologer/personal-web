@@ -7,7 +7,7 @@ export default function Privacy() {
       title="Sparingly Privacy Policy"
       standfirst="Sparingly does not collect, transmit, or store any personal data. This policy explains what that means in practice."
     >
-      <Section title="No data is collected">
+      <Section title="The app collects nothing">
         <p>
           Sparingly does not collect personal information. There is no account to create, no
           sign-in, no email address to hand over, and no profile.
@@ -58,12 +58,43 @@ export default function Privacy() {
         </p>
       </Section>
 
-      <Section title="What Apple sees">
+      <Section title="What Apple reports to me">
         <p>
-          Downloading the app is a transaction between you and Apple, and Apple's own privacy
-          policy covers it. If you have chosen to share analytics and crash reports with
-          developers in your iOS settings, Apple may pass me anonymised crash information.
-          That is a setting you control, and I receive nothing that identifies you.
+          The app sends nothing, but downloading it is a transaction between you and Apple,
+          and Apple gives every developer some information about their own app. It is worth
+          being specific about what that is.
+        </p>
+        <ul className="list-disc pl-5 space-y-2 marker:text-zinc-600">
+          <li>
+            <strong className="text-zinc-300">Aggregate statistics</strong> — how many times
+            Sparingly was downloaded, in which countries, on which device models and iOS
+            versions, and how many people keep using it. These are counts, not people. I
+            cannot tell who downloaded the app.
+          </li>
+          <li>
+            <strong className="text-zinc-300">Crash reports</strong>, but only if you have
+            turned on <em className="not-italic text-zinc-300">Share with App Developers</em>{" "}
+            in Settings → Privacy &amp; Security → Analytics &amp; Improvements. They contain
+            the device model, the iOS version, and where in the code the crash happened. They
+            do not contain your items or anything you typed.
+          </li>
+          <li>
+            <strong className="text-zinc-300">Reviews</strong> you choose to leave, which are
+            public and show the nickname you picked.
+          </li>
+        </ul>
+        <p>
+          None of this comes from the app. It comes from Apple, it is governed by Apple's
+          privacy policy, and the analytics part is a setting you control.
+        </p>
+      </Section>
+
+      <Section title="If you email me">
+        <p>
+          Then I have your email address and whatever you wrote, in my mailbox, for as long
+          as I keep the thread. I use it to answer you. It is not added to any list, and it
+          is not connected to anything in the app — I have no way to link an email to a
+          copy of Sparingly.
         </p>
       </Section>
 
