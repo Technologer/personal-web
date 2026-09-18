@@ -2,6 +2,14 @@ export const NAV_LINKS = ["Work", "Skills", "Contact"];
 
 export const PROJECTS = [
   {
+    title: "Sparingly",
+    description:
+      "An iPhone app for the things you only want to do occasionally. Set a frequency, log a tap, and it tells you when you drift — too often or not often enough. Everything stays on the device.",
+    tags: ["Swift", "SwiftUI", "iOS"],
+    url: "https://apps.apple.com/app/sparingly-frequency-tracker/id6810261258",
+    year: "2026",
+  },
+  {
     title: "Alcohol Tracker",
     description:
       "A Garmin watch app that helps you monitor your alcohol intake on the go. Track drinks, estimate blood alcohol content, and stay aware — right from your wrist.",
